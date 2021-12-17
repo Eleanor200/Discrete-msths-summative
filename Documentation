@@ -1,0 +1,27 @@
+How Discrete mathematics is relevant to the project.
+
+To write a code to work correctly, we must first understand what graphs and different charts exist. Through a discrete mathematics course, we can understand the whole graph Theory.
+Discrete mathematics is relevant because:
+It helps us understand graphs' definition, which is any collection of vertices and edges.
+It helped us understand the different types of graphs and the difference between them.
+In the project, we were asked to identify if our graph has Euler circuits; using the knowledge of Discrete mathematics, we have to check the conditions for a chart to fulfill an Euler circuit.
+In our code, we used graph theory to
+We created five graphs in our codes, and we had to determine if the graphs were Euler, Semi-Euler, or not Euler. From the graph theory, we understood that the graph is an Euler graph if it has zero odd nodes, it is semi_Eurel if it has less than three abnormal nodes but greater than zero, and it is not Eurel if it has more than three odd nodes.
+
+                                                     """Determining the probability"""
+
+Any graph with less than two edges is disconnected, while any graph with at least four edges is connected (since there are only three edges among any 3 of the vertices).
+
+In order to determine the probability of a given graph to be Eulerian, the following conditions must be met:
+   1. The graph must have even node degrees; the nodes' probability has an even node degree is 1/2.
+   2. The graph must be connected; the graph's probability is 1/2. We can, therefore, calculate
+   the probability of the given graph as we know its connection.
+
+So, the probability that any given graph has an Eulerian circuit is provided by the above conditions.
+       P(Euler) = P(even node degree) * P(graph is connected)
+                = 1/2 * 1/2
+                = 0.25 or 25%
+
+                                                              Assumptions
+We assumed that our graphs were connected since they all had four edges.
+We assumed that the probability of each condition that makes a graph Eulerian is 0.5 so that it would add up to 1 in case all the requirements are fulfilled.
